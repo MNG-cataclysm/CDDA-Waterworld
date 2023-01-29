@@ -1,0 +1,16 @@
+[
+  {
+    "type": "EXTERNAL_OPTION",
+    "name": "OVERMAP_PLACE_CITIES",
+    "info": "Allows to place cities during overmap generation.",
+    "stype": "bool",
+    "value": false
+  },
+  {
+    "type": "EXTERNAL_OPTION",
+    "name": "GENERIC_SCENARIO_ID",
+    "info": "The scenario selected by default in the character creator menu.",
+    "stype": "string_input",
+    "value": "waterworld_island_start"
+  }
+]

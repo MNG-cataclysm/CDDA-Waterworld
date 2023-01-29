@@ -1,0 +1,14 @@
+[
+  {
+    "type": "start_location",
+    "id": "sloc_lake_surface",
+    "name": "Lake",
+    "terrain": [ "lake_surface" ]
+  },
+  {
+    "type": "start_location",
+    "id": "sloc_island",
+    "name": "Island",
+    "terrain": [ "forest", "forest_thick", "island_forest_thick", "island_forest_water", "island_field" ]
+  }
+]

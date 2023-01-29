@@ -1,0 +1,36 @@
+[
+  {
+    "type": "SCENARIO_BLACKLIST",
+    "subtype": "whitelist",
+    "scenarios": [ "island_start", "lake_start", "aircraft_carrier_start", "alcatraz", "isolationist" ]
+  },
+  {
+    "type": "scenario",
+    "id": "waterworld_island_start",
+    "name": "Island Paradise",
+    "points": 0,
+    "description": "You're stranded on a deserted isle, surrounded by a vast body of fresh water.  Fortunately, you're not alone in this endevor.",
+    "allowed_locs": [ "sloc_island" ],
+    "start_name": "An Island"
+  },
+  {
+    "type": "scenario",
+    "id": "lake_start",
+    "name": "On a Lake",
+    "points": -3,
+    "description": "You're stuck in the middle of a lake, alone, with no boat and only the clothes on your back.  Whatever will you do!",
+    "allowed_locs": [ "sloc_lake_surface" ],
+    "start_name": "Lake",
+    "flags": [ "LONE_START" ]
+  },
+  {
+    "type": "scenario",
+    "id": "isolationist",
+    "name": "Safe Place",
+    "points": 1,
+    "description": "You've found some distant safe place, devoid of the living dead.  Looks like you're on your own…",
+    "allowed_locs": [ "sloc_lighthouse_ground", "sloc_cabin_lake", "sloc_freshwater_research_station" ],
+    "start_name": "Safe Building",
+    "flags": [ "LONE_START" ]
+  }
+]

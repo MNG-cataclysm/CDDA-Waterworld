@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "waterworld",
+    "name": "Waterworld",
+    "description": "Makes the world a gigantic ocean, scattered with islands and other such things.",
+    "authors": [ "MNG-cataclysm" ],
+    "maintainers": [ "MNG-cataclysm" ],
+    "category": "total_conversion",
+    "dependencies": [ "dda" ]
+  }
+]

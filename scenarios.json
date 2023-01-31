@@ -2,7 +2,7 @@
   {
     "type": "SCENARIO_BLACKLIST",
     "subtype": "whitelist",
-    "scenarios": [ "island_start", "lake_start", "aircraft_carrier_start", "alcatraz", "isolationist" ]
+    "scenarios": [ "waterworld_island_start", "lake_start", "aircraft_carrier_start", "alcatraz", "isolationist" ]
   },
   {
     "type": "scenario",

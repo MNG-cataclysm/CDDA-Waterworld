@@ -1,0 +1,9 @@
+[
+ {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "lake_surface" ],
+    "place_zones": [ { "type": "ZONE_START_POINT", "faction": "your_followers", "x": [ 12, 18 ], "y": [ 12, 18 ] } ],
+    "object": { "fill_ter": "t_water_dp" }
+  }
+]
